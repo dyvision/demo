@@ -17,4 +17,4 @@ def hello():
 @app.route('/test')
 def test():
     final = 14 + int(request.args['number'])
-    return final
+    return str(final)
